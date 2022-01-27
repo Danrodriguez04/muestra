@@ -1,16 +1,14 @@
 body {
     margin: 0;
+    background-image: url("../imagen/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: cadetblue;
+    
+
 }
 
 .imagen {
-    background-image: url("../imagen/fondo.png");
-    height: 450px;
-    width: 85%;
-    background-position-x: right;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-left: 15%;
     padding: 1px -1px;
 }
@@ -47,8 +45,9 @@ li a:hover:not(.INICI) {
 
 h1 {
     font-size: 35px;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: cornsilk;
+    -webkit-text-stroke: 2px black;
     text-align: center;
     top: 0;
 }

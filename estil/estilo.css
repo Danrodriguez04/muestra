@@ -3,7 +3,7 @@ body {
     background-image: url("../imagen/fondo.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .imagen {

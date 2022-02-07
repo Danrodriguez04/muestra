@@ -1,14 +1,12 @@
 body {
     margin: 0;
-    background-image: url("../imagen/fondo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(182, 173, 149);
+    
 }
 
-.imagen {
-    margin-left: 15%;
-    text-align: center;
+section {
+    margin-left: 16%;
+    text-align: left;
 }
 
 ul {
@@ -51,9 +49,17 @@ h1 {
     top: 0;
 }
 
+h2 {
+    text-align: left;
+    font-family: cursive;
+    font-size: 30px;
+}
+
 p {
-    font-size: 20px;
-    color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left;
 }
 
 .soltar {
@@ -94,4 +100,10 @@ div a:hover:not(.contenido) {
 .desplegable:hover .soltar {
     background-color: rgb(158, 157, 157);
     color: white;
+}
+img {
+    float: right;
+}
+ol {
+    list-style-type: circle;
 }

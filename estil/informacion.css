@@ -1,9 +1,8 @@
 body {
     margin: 0;
-    background-image: url("../imagen/fondo.png");
+    background: url("../imagen/fondo.png") center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 
 section {
@@ -51,9 +50,19 @@ h1 {
     top: 0;
 }
 
+h3 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 p {
     font-size: 20px;
     color: rgb(255, 0, 0);
+}
+
+p::after {
+    content: url("../imagen/pseudo.png");
+    height: 5%;
 }
 
 .soltar {
@@ -96,3 +105,11 @@ div a:hover:not(.contenido) {
     color: white;
 }
 
+.Correos {
+    float: left;
+    width: 18%;
+    padding-top: 3%;
+    margin-right: 0;
+}
+
+img {}

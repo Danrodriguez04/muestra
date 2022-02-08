@@ -1,9 +1,8 @@
 body {
     margin: 0;
-    background-image: url("../imagen/fondo.png");
+    background: url("../imagen/fondo.png") center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 
 section {
@@ -54,12 +53,14 @@ h1 {
 p {
     font-size: 20px;
     color: rgb(255, 255, 255);
+    background-color: cadetblue;
 }
 
-h3 { 
+h3 {
     color: cornsilk;
     font-size: 25px;
     font-family: cursive;
+    -webkit-text-stroke: 2px black;
 }
 
 .soltar {
@@ -101,4 +102,3 @@ div a:hover:not(.contenido) {
     background-color: rgb(158, 157, 157);
     color: white;
 }
-

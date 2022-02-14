@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url("../imagen/viejo.jpg") center center fixed;
+    background: url("../imagen/hoja.png") center center fixed;
     background-size: cover;
     background-color: black;
 }
@@ -48,6 +48,10 @@ h1 {
     -webkit-text-stroke: 2px black;
     text-align: center;
     top: 0;
+}
+h2 {
+    font-family: cursive;
+    color: rgb(78, 64, 32);
 }
 
 p {
@@ -102,10 +106,4 @@ div a:hover:not(.contenido) {
     border: 4px solid white;
 }
 
-aside {
-    width: 10%;
-    float: right;
-    background-color: rgb(177, 164, 164);
-    margin-right: 2%;
-    padding-right: 6%;
-}
+
